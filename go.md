@@ -9,7 +9,7 @@
 * [Slice](#Slice)
 	* [Slice结构体](#Slice结构体)
 	* [Go的Slice如何扩容](#Go的Slice如何扩容)
-	* [如何判断 2 个字符串切片（slice) 是相等的](#如何判断 2 个字符串切片（slice) 是相等的)
+	* [如何判断 2 个字符串切片（slice) 是相等的](#如何判断2个字符串切片（slice）是相等的)
 	* [使用array还是slice？](#使用array还是slice？)
 * [Map](#Map)
 	* [map的底层实现](#map的底层实现。)
@@ -83,7 +83,7 @@ type slice struct {
 - `若 slice 容量够用，则将新元素追加进去，slice.len++，返回原 slice`
 - `若 slice 容量不够用，将 slice 先扩容，扩容得到新 slice，将新元素追加进新 slice，slice.len++，返回新 slice。`
 
-##### 如何判断 2 个字符串切片（slice) 是相等的
+##### 如何判断2个字符串切片（slice）是相等的
 
 ```go
 reflect.DeepEqual()
