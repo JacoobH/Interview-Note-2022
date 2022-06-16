@@ -13,7 +13,7 @@
 	* [使用array还是slice？](#使用array还是slice？)
 * [Map](#Map)
 	* [map的底层实现](#map的底层实现。)
-	* [如何判断 map 中是否包含某个 key](#如何判断map中是否包含某个 key)
+	* [如何判断 map 中是否包含某个 key](#如何判断map中是否包含某个key)
 * [Chan](#Chan)
 	* [CHAN结构体](#CHAN结构体)
 	* [读写流程](#读写流程)
